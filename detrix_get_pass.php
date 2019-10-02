@@ -9,7 +9,7 @@ $user_id = 0; // 0 - Default admin ID
 /*--------------------------------------------------------------------*/
 
 $banner = "Exploiting SQLi vuln and password decrypting for Detrix\n".
-	"http://forum.detrix.kz\n_link_ \n".
+	"http://forum.detrix.kz\nhttps://github.com/sadshade/Detrix-Passwords-PoC \n".
 	"sad.2.shade@mail.com, 2019.\n\n";
 
 // SQLi request
